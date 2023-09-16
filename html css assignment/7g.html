@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Text Box with Logo, Text, and Button</title>
+    <style>
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .text-box {
+            display: flex;
+            align-items: center;
+            border: 1px solid #ccc;
+            padding: 10px;
+            width: 300px;
+        
+        }
+
+    
+        .logo {
+            max-width: 50px;
+            height: auto;
+            margin-right: 10px;
+            width: 35px;
+            height: 35px;
+            border-radius: 100px;
+        }
+
+        
+        .input-field {
+            flex-grow: 1;
+            border: none;
+            padding: 5px;
+        }
+
+    
+        .button {
+            background-color: hsl(211, 100%, 50%);
+            color: hwb(0 100% 0%);
+            border: none;
+            padding: 5px 15px;
+            cursor: pointer;
+            border-radius: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    
+        <div class="text-box">
+            
+            <img class="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLOHTR8auSCLmACmtpwBCkUBtgbeIF8NpF7NSNT4IjoQ&s"  alt="Logo">
+            
+            
+            <input class="input-field" type="text" placeholder="what's happening?">
+            
+            
+            <button class="button">Tweet</button>
+        </div>
+    </div>
+</body>
+</html>
